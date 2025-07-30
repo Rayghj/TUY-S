@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstory_app=self.webpackChunkstory_app||[]).push([[977],{977:(e,s,d)=>{d.r(s),d.d(s,{templates:()=>r});var r={s1d61c7a71953905d:"Créer une Histoire",s229fb4df9ecf3ed1:"Déconnexion",s347024ed1f8c841b:"Liste des Histoires",s36da855b8bc1546c:"2025 TUY'S. Créé par RayId.",s45dab30b4d2d3c14:"Connexion",s6fff41fe92712df0:"À propos de TUY'S"}}}]);

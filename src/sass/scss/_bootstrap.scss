@@ -1,0 +1,83 @@
+@use 'sass:map';
+
+// ==================================================
+// Bootstrap
+// ==================================================
+
+//
+// Functions Bootstrap
+//
+@import '~bootstrap/scss/functions';
+
+//
+// Variables Bootstrap
+//
+@import '~bootstrap/scss/variables';
+
+// Menerapkan/override variables Bootstrap apa pun di sini'
+
+//root
+$font-family-base: 'Comic Relief', sans-serif;
+
+//navbar
+$navbar-toggler-focus-width: 0;
+$navbar-light-toggler-border-color: transparent;
+$navbar-light-color: #000;
+
+//navlink
+$nav-link-color: #716f6a;
+$nav-link-hover-color: #000;
+
+//list-stories
+$card-bg: #a6d6d6;
+$card-border-color: #000;
+$card-border-width: 1.5px;
+
+//modal-story
+$modal-content-bg: #a6d6d6;
+
+//buttons
+$btn-color: #000;
+$btn-padding-x: 0.4rem;
+$btn-padding-y: 0.7rem;
+$link-decoration: none;
+
+// Konfigurasi Bootstrap
+//
+@import '~bootstrap/scss/maps';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/reboot';
+
+//
+// Layouts dan components
+//
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/images';
+@import '~bootstrap/scss/containers';
+@import '~bootstrap/scss/grid';
+
+@import '~bootstrap/scss/helpers';
+
+// Komponen-Komponen
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+@import '~bootstrap/scss/offcanvas';
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/close';
+@import '~bootstrap/scss/modal';
+@import '~bootstrap/scss/spinners';
+
+//
+// Utilities API untuk menghasilkan utility classes
+//
+@import '~bootstrap/scss/utilities/api';
+
+//
+// Tambahkan custom code di sini
+//

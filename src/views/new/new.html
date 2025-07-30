@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><%= htmlWebpackPlugin.options.title %> | Tell Us Y'Story</title>
+
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="logo.png" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav-container></nav-container>
+    </header>
+
+    <main>
+      <div class="main-content">
+        <div class="container py-5">
+          <h1 class="mb-3">Buat Cerita</h1>
+
+          <form class="row g-3" id="addStoryForm" novalidate>
+            <div class="col-12 col-md-6">
+              <label for="validationCustomNotes" class="form-label"
+                >Catatan</label
+              >
+              <new-note-story
+                inputId="validationCustomNotes"
+                rows="3"
+                required
+              ></new-note-story>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="validationCustomImg" class="form-label"
+                >Ilustarasi Cerita</label
+              >
+              <new-image-story
+                inputId="validationCustomImg"
+                invalidFeedbackMessage="Wajib Diisi"
+                required
+              ></new-image-story>
+            </div>
+
+            <div class="col-12 text-end">
+              <new-submit-button></new-submit-button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <div class="container px-3 py-4">
+          <footer-content></footer-content>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

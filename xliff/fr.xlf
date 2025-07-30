@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="fr" source-language="id" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s347024ed1f8c841b">
+  <source>Daftar Cerita</source>
+  <target>Liste des Histoires</target>
+</trans-unit>
+<trans-unit id="s1d61c7a71953905d">
+  <source>Buat Cerita</source>
+  <target>Créer une Histoire</target>
+</trans-unit>
+<trans-unit id="s6fff41fe92712df0">
+  <source>Tentang TUY'S</source>
+  <target>À propos de TUY'S</target>
+</trans-unit>
+<trans-unit id="s36da855b8bc1546c">
+  <source>2025 TUY'S. Dibuat oleh RayId.</source>
+  <target>2025 TUY'S. Créé par RayId.</target>
+</trans-unit>
+<trans-unit id="s45dab30b4d2d3c14">
+  <source>Masuk</source>
+  <target>Connexion</target>
+</trans-unit>
+<trans-unit id="s229fb4df9ecf3ed1">
+  <source>Keluar</source>
+  <target>Déconnexion</target>
+</trans-unit>
+</body>
+</file>
+</xliff>
