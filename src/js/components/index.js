@@ -3,6 +3,7 @@ import './NavButtons';
 import './BrandApp';
 import './FooterContent';
 import './LoadIndicator';
+import './LoadIndicatorButton';
 import './TogglePassword';
 
 import './list/DetailStory';

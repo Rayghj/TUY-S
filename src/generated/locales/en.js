@@ -9,6 +9,5 @@ export const templates = {
   s229fb4df9ecf3ed1: `Logout`,
   s347024ed1f8c841b: `List of Stories`,
   s36da855b8bc1546c: `2025 TUY'S. Created by RayId.`,
-  s45dab30b4d2d3c14: `Login`,
   s6fff41fe92712df0: `About TUY'S`,
 };

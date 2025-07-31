@@ -1,10 +1,9 @@
 import js from '@eslint/js';
 import globals from 'globals';
 import { defineConfig } from 'eslint/config';
-import eslintConfigPrettier from "eslint-config-prettier/flat";
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
 export default defineConfig([
-
   {
     ignores: [
       'docs/**',
@@ -28,8 +27,8 @@ export default defineConfig([
       'no-undef': 'off',
       'no-unused-vars': 'off',
       'prefer-const': ['error', { ignoreReadBeforeAssign: true }],
-      'indent': ['error', 2],
-      'semi': ['error', 'always'],
+      indent: ['error', 2],
+      semi: ['error', 'always'],
     },
   },
   eslintConfigPrettier,
