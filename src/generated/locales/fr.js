@@ -9,6 +9,5 @@ export const templates = {
   s229fb4df9ecf3ed1: `Déconnexion`,
   s347024ed1f8c841b: `Liste des Histoires`,
   s36da855b8bc1546c: `2025 TUY'S. Créé par RayId.`,
-  s45dab30b4d2d3c14: `Connexion`,
   s6fff41fe92712df0: `À propos de TUY'S`,
 };

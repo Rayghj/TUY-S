@@ -39,6 +39,10 @@ const Register = {
     console.log(formData);
 
     try {
+      document.getElementById('loading-indicator-button').style.display =
+        'block';
+      document.getElementById('submit-text').style.display = 'none';
+
       const response = await Auth.register({
         name: formData.name,
         email: formData.email,
@@ -60,6 +64,10 @@ const Register = {
         errorMsg = error.message;
       }
       window.alert('Gagal membuat akun: ' + errorMsg);
+    } finally {
+      document.getElementById('loading-indicator-button').style.display =
+        'none';
+      document.getElementById('submit-text').style.display = 'block';
     }
   },
 

@@ -33,6 +33,10 @@ const Login = {
       console.log(formData);
 
       try {
+        document.getElementById('loading-indicator-button').style.display =
+          'block';
+        document.getElementById('submit-text').style.display = 'none';
+
         const response = await Auth.login({
           email: formData.email,
           password: formData.password,
@@ -58,6 +62,10 @@ const Login = {
           errorMsg = error.message;
         }
         window.alert('Gagal untuk masuk: ' + errorMsg);
+      } finally {
+        document.getElementById('loading-indicator-button').style.display =
+          'none';
+        document.getElementById('submit-text').style.display = 'block';
       }
     }
   },

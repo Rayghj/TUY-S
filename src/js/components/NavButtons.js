@@ -29,9 +29,6 @@ class NavButtons extends LitWithoutShadowDom {
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/auth/login.html">${msg(`Masuk`)}</a>
-          </li>
-          <li class="nav-item">
             <a
               class="nav-link"
               style="cursor: pointer;"

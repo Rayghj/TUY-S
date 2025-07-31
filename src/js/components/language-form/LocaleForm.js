@@ -18,12 +18,12 @@ class LocaleForm extends LitWithoutShadowDom {
     return html`
       <select class="form-select w-auto m-auto" @change=${this._localeChanged}>
         ${allLocales.map((locale) => {
-    return html`
+          return html`
             <option value=${locale} ?selected=${locale === getLocale()}>
               ${localeNames[locale]}
             </option>
           `;
-  })}
+        })}
       </select>
     `;
   }
